@@ -1,0 +1,59 @@
+﻿<#@ template debug="true" hostspecific="true" language="C#" #>
+<#@ assembly name="System.Core" #>
+<#@ import namespace="System.Linq" #>
+<#@ import namespace="System.Text" #>
+<#@ import namespace="System.Collections.Generic" #>
+<#@ output extension=".cs" #>
+<#@ include file="TemplateFileManagerV2.1.ttinclude" #>
+
+
+<#@ assembly name="$(SolutionDir)HerbiSoft.Core.CodeGenTemplates\bin\Debug\HerbiSoft.Core.CodeGenTemplates.dll" #>
+<#@ import namespace="HerbiSoft.Core.CodeGenTemplates" #>
+
+<#
+var manager = TemplateFileManager.Create(this);
+#>
+
+
+namespace HerbiSoft.Core.SampleDtos.Dtos {
+<#
+	
+	var sourcePath = @"C:\_Projects\HerbiSoft.Core\src";
+	var projectName = @"HerbiSoft.Core.SampleModel";
+	
+	var absPathDll = System.IO.Path.Combine(sourcePath, projectName, @"bin\debug", projectName + ".dll");
+	var classTypes = ClassReader.GetAllClassesFromAssembly(absPathDll, new[] { projectName + ".Entities" }).ToList();
+
+
+	var x = this.Host.ResolvePath(System.IO.Path.GetFullPath(System.IO.Path.Combine(@"..\", projectName, @"bin\debug", projectName + ".dll")));
+	Write(x);
+
+	this.PushIndent("   ");
+	foreach(var type in classTypes)
+    {
+		manager.StartNewFile(type.Name + ".cs");
+		
+		
+		
+#>
+
+
+public class <#=type.Name #>Dto
+{
+<#
+		this.PushIndent("   ");
+		this.Write("public string Test { get; set; }");
+		this.PopIndent();
+#>
+
+}
+<#
+    }
+	this.PopIndent();
+#>
+
+}
+
+<#
+manager.Process();
+#>

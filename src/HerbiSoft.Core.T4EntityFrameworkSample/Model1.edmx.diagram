@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="befc813e650d465d8af67faf4336cd68" Name="Diagram1">
+        <EntityTypeShape EntityType="DpPze_NeuModel.AddressAssignment" Width="1.5" PointX="3" PointY="26.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.FunctionalRight" Width="1.5" PointX="10.75" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Member" Width="1.5" PointX="0.75" PointY="33.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.RightAssignment" Width="1.5" PointX="13" PointY="36.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Role" Width="1.5" PointX="3" PointY="36.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.RoleAssignment" Width="1.5" PointX="8.25" PointY="25.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.User" Width="1.5" PointX="3" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.AccessPolicy" Width="1.5" PointX="3.75" PointY="9.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.AccessPolicyItem" Width="1.5" PointX="11" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.AccessType" Width="1.5" PointX="3.75" PointY="17.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Address" Width="1.5" PointX="0.75" PointY="24.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.AddressPolicyAssignment" Width="1.5" PointX="6" PointY="26.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Area" Width="1.5" PointX="3" PointY="33.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Attendance" Width="1.5" PointX="15.5" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.BookType" Width="1.5" PointX="10.5" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.BreakAssignment" Width="1.5" PointX="3" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.BreakParameter" Width="1.5" PointX="3" PointY="54.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.BreakRule" Width="1.5" PointX="0.75" PointY="20.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.CardAssignment" Width="1.5" PointX="10.5" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.CardReader" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Company" Width="1.5" PointX="8.25" PointY="34.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Device" Width="1.5" PointX="5.25" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.DeviceLog" Width="1.5" PointX="7.5" PointY="38.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.DeviceState" Width="1.5" PointX="3" PointY="46.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.DeviceType" Width="1.5" PointX="3" PointY="50.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Employee" Width="1.5" PointX="8.25" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.IdentityCard" Width="1.5" PointX="8.25" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Organisation" Width="1.5" PointX="3" PointY="43.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Reason" Width="1.5" PointX="15.5" PointY="36.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.RoundAssignment" Width="1.5" PointX="6" PointY="20.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.RoundParameter" Width="1.5" PointX="8.25" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.RoundRule" Width="1.5" PointX="3.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Schedule" Width="1.5" PointX="10.5" PointY="31.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.ScheduleItem" Width="1.5" PointX="12.75" PointY="31.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Setting" Width="1.5" PointX="7.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Task" Width="1.5" PointX="5.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.TimeAmountDay" Width="1.5" PointX="10.5" PointY="35.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.TimeExport" Width="1.5" PointX="11.25" PointY="22.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.TimeExportDetail" Width="1.5" PointX="13.5" PointY="26.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.TimeItem" Width="1.5" PointX="6" PointY="43.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.TimeProfile" Width="1.5" PointX="3.75" PointY="39.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.TimeTracking" Width="1.5" PointX="17.75" PointY="29.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Customer" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.CustomerAssignment" Width="1.5" PointX="3" PointY="1.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.ExceptionLog" Width="1.5" PointX="7.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.InformationLog" Width="1.5" PointX="9.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.Update" Width="1.5" PointX="5.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.UpdatePackage" Width="1.5" PointX="8" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.User1" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DpPze_NeuModel.UserLog" Width="1.5" PointX="3" PointY="5.625" IsExpanded="true" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AddressAssignment_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AddressAssignment_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_RightAssignment_FunctionalRight" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Group_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_RightAssignment_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_User_Member" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_GroupAssignment_Group" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_GroupAssignment_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AccessPolicyItem_AccessPolicy" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AddressPolicyAssignment_AccessPolicy" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AccessPolicyItem_AccessType" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AccessPolicyItem_TimeProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Attendance_AccessType" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_RuleAssignment_AccessType" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AddressPolicyAssignment_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Area_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_BreakRuleAssignment_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Company_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Employee_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Organisation_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_RuleAssignment_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_AddressPolicyAssignment_Device" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Device_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Employee_Area" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Attendance_Device" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Attendance_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeTracking_AttendanceFrom" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeTracking_AttendanceTo" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_ScheduleItem_BookType" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_BreakRuleAssignment_BreakRule" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_BreakRuleAssignment_TimeProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_BreakParameter_BreakRule" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_CardAssignment_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_EmployeeCardAssignment_IdentityCard" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Company_Organisation" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Device_Company1" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Employee_Company" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Device_DeviceState" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Device_DeviceType1" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_DeviceLog_Device" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_Schedule_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeAmountDay_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeExportDetail_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeTracking_Employee" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeTracking_ReasonFrom" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeTracking_ReasonTo" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_RoundParameter_RoundAssignment" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_RoundRuleAssignment_RoundRule" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_RoundRuleAssignment_TimeProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_ScheduleItem_Schedule" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeExportDetail_TimeExport" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeItem_TimeProfile" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_TimeTracking_TimeTracking" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_CustomerAssignment_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_CustomerAssignment_User" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_UpdatePackage_Update" ManuallyRouted="false" />
+        <AssociationConnector Association="DpPze_NeuModel.FK_UserLog_User1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
